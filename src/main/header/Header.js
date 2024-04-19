@@ -53,7 +53,10 @@ const Header = () => {
   ];
 
   const headerIcon = [
-    { icon: <i className="fa-brands fa-instagram"></i>, url: "/" },
+    {
+      icon: <i className="fa-brands fa-instagram"></i>,
+      url: "https://www.instagram.com/imdev_singh/?igsh=OGZ0ZmtteHdpaXlj",
+    },
   ];
 
   const handleNavLinkClick = (id) => {
@@ -83,7 +86,7 @@ const Header = () => {
               aria-expanded="false"
               aria-label="Toggle navigation"
             >
-              <span className="navbar-toggler-icon"></span>
+              <i class="fa-solid fa-bars"></i>
             </button>
             <div
               className="collapse navbar-collapse align-items-center"

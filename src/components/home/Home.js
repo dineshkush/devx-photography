@@ -11,6 +11,12 @@ const Home = () => {
     "Products Shooting",
     "Pre Wedding Shoot",
   ];
+  const handleNavLinkClick = () => {
+    const section = document.getElementById("contact");
+    if (section) {
+      section.scrollIntoView({ behavior: "smooth" });
+    }
+  };
 
   return (
     <>
@@ -29,7 +35,9 @@ const Home = () => {
                     <li key={index}>{item}</li>
                   ))}
                 </ul>
-                <button className="site_btn">Get a Quote</button>
+                <button className="site_btn" onClick={handleNavLinkClick}>
+                  Get a Quote
+                </button>
               </div>
             </div>
             <div className="col-md-6"></div>

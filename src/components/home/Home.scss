@@ -212,3 +212,49 @@
     }
   }
 }
+
+@media (max-width: 480px) {
+  .banner_sec {
+    .banner_content {
+      h6 {
+        font-size: 15px;
+        line-height: 19px;
+        letter-spacing: 3.5px;
+        margin-bottom: 10px;
+      }
+      h1 {
+        font-size: 28px;
+        line-height: 40px;
+        letter-spacing: 2.5px;
+        margin-bottom: 0px;
+      }
+      hr {
+        height: 4px;
+        width: 30%;
+        margin-top: 20px;
+        margin-bottom: 20px;
+      }
+      .service_list {
+        margin-bottom: 20px;
+        li {
+          padding-left: 24px;
+          margin-bottom: 10px;
+          font-size: 16px;
+          &::before {
+            font-size: 15px;
+          }
+        }
+      }
+    }
+  }
+
+  .about_sec {
+    .more_about {
+      margin-top: 70px;
+      margin-bottom: 0px;
+      .col-md-4 {
+        margin-bottom: 50px;
+      }
+    }
+  }
+}

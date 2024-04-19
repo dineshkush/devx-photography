@@ -15,7 +15,7 @@ const Footer = () => {
                 <p>© 2024 DevX Photography. All rights reserved.</p>
                 <ul className="footer_sm">
                   <li>
-                    <a href="/">
+                    <a href="https://www.instagram.com/imdev_singh/?igsh=OGZ0ZmtteHdpaXlj">
                       <i className="fa fa-instagram"></i>
                     </a>
                   </li>
